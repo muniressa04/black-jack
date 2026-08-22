@@ -15,5 +15,7 @@ function startGame(){
         isAlive = false
     message = "u are out of the game"
     }
-    console.log(message);
+    document.getElementById("sum-el").textContent = "sum: " + sum
+    document.getElementById("message-el").textContent = message
+    document.getElementById("card-el").textContent = "card: " + firstCard + " " +secondCard
 }
