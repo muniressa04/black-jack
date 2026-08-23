@@ -2,6 +2,9 @@ h1 {
     color: goldenrod;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
     background: green;
     text-align: center;
@@ -20,4 +23,5 @@ button{
     font-weight: bold;
     font-family: inherit;
     border-radius: 3px;
+    margin-top: 10px;
 }
